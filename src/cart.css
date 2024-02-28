@@ -1,0 +1,253 @@
+.mains {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.cart-container {
+  height: auto;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.cart-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.LIST {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.LIST:hover {
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.8);
+  transition: box-shadow 0.3s ease;
+}
+
+.images {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.quantity {
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.total-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-section p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.btnsforquantity {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnsforquantity span {
+  font-size: 1rem;
+  margin-bottom: 1%;
+  align-self: center;
+}
+.btnsforquantity button {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.btnsforit {
+  font-size: 14px;
+}
+
+.btnsforit:hover {
+  background-color: #23c483;
+  box-shadow: 0px 10px 12px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+h4 {
+  font-size: 0.9rem;
+}
+h5 {
+  font-size: 0.8rem;
+  margin-right: 5%;
+}
+.total-section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+  transition: box-shadow 0.3s ease;
+}
+
+.total-section:hover {
+  box-shadow: 0 0 20px rgba(15, 157, 88, 0.9);
+}
+
+.total-section p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.total-section p:last-child {
+  font-weight: bold;
+  color: #23c483;
+  transition: color 0.3s ease;
+}
+/* Smaller Devices */
+@media only screen and (max-width: 600px) {
+  .cart-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .cart-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .LIST {
+    padding: 10px 0;
+  }
+
+  .images {
+    width: 40px;
+    height: 40px;
+  }
+
+  .quantity-container button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+
+  .quantity {
+    margin: 0 8px;
+    font-size: 1rem;
+  }
+
+  .total-section p {
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+
+  .btnsforquantity {
+    width: 15%;
+  }
+
+  .btnsforquantity span {
+    font-size: 0.8rem;
+  }
+
+  .btnsforquantity button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  h5 {
+    font-size: 0.7rem;
+    margin-right: 3%;
+  }
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .cart-container {
+    width: 80%;
+    padding: 18px;
+  }
+
+  .cart-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 18px;
+  }
+
+  .LIST {
+    padding: 13px 0;
+  }
+
+  .images {
+    width: 45px;
+    height: 45px;
+  }
+
+  .quantity-container button {
+    padding: 7px 11px;
+    font-size: 1rem;
+  }
+
+  .quantity {
+    margin: 0 9px;
+    font-size: 1.1rem;
+  }
+
+  .total-section p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+
+  .btnsforquantity {
+    width: 12%;
+  }
+
+  .btnsforquantity span {
+    font-size: 0.9rem;
+  }
+
+  .btnsforquantity button {
+    padding: 7px 11px;
+    font-size: 13px;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  h5 {
+    font-size: 0.8rem;
+    margin-right: 4%;
+  }
+}
