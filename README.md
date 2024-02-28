@@ -11,7 +11,9 @@ Welcome to our E-Commerce platform! This project is designed to provide a seamle
 - View detailed product information, including images, descriptions, and prices.
 - Add products to your shopping cart for a convenient checkout process.
 - User authentication to manage your profile and order history.
-- Responsive and user-friendly design optimized for Windows.
+- Whishlist.
+- Profile.
+  
 
 ## Technologies Used
 
@@ -51,24 +53,18 @@ Welcome to our E-Commerce platform! This project is designed to provide a seamle
    npm start
    ```
 
-   The application will be available at [http://localhost:3000](http://localhost:3000).
+   The application will be available at https://e-commerce-phi-five-80.vercel.app/
 
 ## External APIs
 
 This project utilizes the following external APIs:
 
-- [API Name 1](#) - Description of API usage.
-- [API Name 2](#) - Description of API usage.
+- [Products API](https://fakestoreapi.com/products) - Description of API usage.
+- [Product Detail](https://fakestoreapi.com/products/${id}) - Description of API usage.
 
 Note: Obtain API keys for the external services and update the configuration accordingly.
 
-## Screenshots
 
-![Screenshot 1](./screenshots/screenshot1.png)
-*Caption for Screenshot 1*
-
-![Screenshot 2](./screenshots/screenshot2.png)
-*Caption for Screenshot 2*
 
 ## Contributing
 
