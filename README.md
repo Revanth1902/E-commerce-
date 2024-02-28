@@ -81,4 +81,3 @@ This project is licensed under the [MIT License](LICENSE).
 Happy shopping!
 ```
 
-Remember to replace placeholder content such as `your-username`, `API Name`, and update the screenshots section with relevant images. Also, create a `screenshots` folder to store your project screenshots.
