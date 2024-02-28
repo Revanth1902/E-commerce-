@@ -1,6 +1,4 @@
-Certainly! Below is a sample README template for an e-commerce project inspired by Amazon and Flipkart. Make sure to replace placeholder content with your actual information:
 
-```markdown
 # E-Commerce Project
 
 ## Overview
